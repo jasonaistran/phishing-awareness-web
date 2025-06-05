@@ -1,0 +1,99 @@
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    text-align: center;
+}
+
+.login-box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    padding: 40px;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+}
+
+.logo {
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background: #fafafa;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #0095f6;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.divider {
+    margin: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+.divider span {
+    background: white;
+    padding: 0 10px;
+    color: gray;
+    font-size: 12px;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.fb-login {
+    color: #385185;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.forgot {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.signup-box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    font-size: 14px;
+}
